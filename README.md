@@ -25,7 +25,7 @@ npm playwright install
 ```
 
 4. configure environment variables
-- copy `.env.example` to `.env`
+- rename `.env.example` to `.env`
 - Note: `.env` is not committed to git for security, so `.env.example` is provided as a template
 
 ## Running Tests
