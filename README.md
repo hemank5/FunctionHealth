@@ -78,7 +78,7 @@ I used the Page Object Model to separate test logic from page interactions. This
 ### TypeScript
 TypeScript provides type safety and better IDE support which reduces bugs and makes the codebase easier to maintain as it grows.
 ### Custom Fixtures
-I created custom Playwright fixtures to handle common setup 11ke page initialization and authenticated sessions. This keeps tests clean and focused on business logic.
+I created custom Playwright fixtures to handle common setup like page initialization and authenticated sessions. This keeps tests clean and focused on business logic.
 ## Test Data Management
 All test data. (Stripe cards, user credentials, test scenarios) is centralized in utils/testdata.ts for easy maintenance and reusability.
 
